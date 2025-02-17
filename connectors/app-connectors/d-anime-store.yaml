@@ -1,0 +1,9 @@
+apiVersion: tailscale.com/v1alpha1
+kind: Connector
+metadata:
+  name: d-anime-store-app-connector
+spec:
+  hostname: d-anime-store-app-connector
+  tags:
+    - tag:d-anime-store-app-connector
+  appConnector: {}
