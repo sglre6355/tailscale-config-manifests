@@ -1,0 +1,9 @@
+apiVersion: tailscale.com/v1alpha1
+kind: Connector
+metadata:
+  name: jp-app-connector
+spec:
+  hostname: jp-app-connector
+  tags:
+    - tag:jp-app-connector
+  appConnector: {}

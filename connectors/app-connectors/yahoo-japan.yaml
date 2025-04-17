@@ -1,9 +1,0 @@
-apiVersion: tailscale.com/v1alpha1
-kind: Connector
-metadata:
-  name: yahoo-japan-app-connector
-spec:
-  hostname: yahoo-japan-app-connector
-  tags:
-    - tag:yahoo-japan-app-connector
-  appConnector: {}

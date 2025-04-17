@@ -1,9 +1,0 @@
-apiVersion: tailscale.com/v1alpha1
-kind: Connector
-metadata:
-  name: sbi-securities-app-connector
-spec:
-  hostname: sbi-securities-app-connector
-  tags:
-    - tag:sbi-securities-app-connector
-  appConnector: {}
